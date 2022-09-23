@@ -6,6 +6,18 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    extend: {
+      colors: {
+        primary: '#FF6363',
+        secondary: {
+          100: '#E2E2D5',
+          200: '#888883'
+        }
+      },
+      fontFamily: {
+        nunito: ['Nunito']
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',
