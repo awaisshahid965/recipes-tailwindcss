@@ -7,6 +7,9 @@ module.exports = {
   darkMode: 'media', // or 'class'
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'custom': '18rem minmax(0, 1fr)'
+      },
       colors: {
         primary: '#FF6363',
         secondary: {
